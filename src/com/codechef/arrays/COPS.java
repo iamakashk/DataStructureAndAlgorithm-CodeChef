@@ -1,5 +1,7 @@
 package com.codechef.arrays;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class COPS {
@@ -7,6 +9,7 @@ public class COPS {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		BufferedReader s = new BufferedReader(new InputStreamReader(System.in));
 		Scanner scan = new Scanner(System.in);
 		int T = scan.nextInt(); //Number of test cases
 
